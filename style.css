@@ -1,0 +1,31 @@
+
+a{
+   
+    padding: 6px;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding 0;
+}
+
+li{
+    display: inline;
+    text-decoration: underline;
+}
+
+div.section1 {
+    height: 10em;
+    position: relative
+}
+
+div.section1 {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+
+}
