@@ -10,10 +10,18 @@ ul{
     padding 0;
 }
 
-li{
+li.left{
     display: inline;
     text-decoration: underline;
+    float: left;
 }
+
+li.right{
+    display: inline;
+    text-decoration: underline;
+    float: right;
+}
+
 
 div.section1 {
     height: 10em;
@@ -23,9 +31,46 @@ div.section1 {
 div.section1 {
     margin: 0;
     position: absolute;
-    top: 50%;
+    top: 24%;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%)
 
+}
+
+input {
+    position: absolute;
+    top: 28%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width: 40em;
+    height: 3em;
+}
+
+button.srch {
+    position: absolute;
+    top:32%;
+    left:44%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+
+}
+
+button.luck {
+    position: absolute;
+    top:32%;
+    left:54%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+footer {
+    position: absolute;
+    top:72%;
+    left:54%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    display: block;
+    background-color:darkgrey;
 }
