@@ -4,24 +4,32 @@ a{
     padding: 6px;
 }
 
-ul{
+ol{
+    
     list-style-type: none;
     margin: 0;
     padding 0;
+    
+}
+ol li::before {
+    content: "\200B";
+  }
+
+li{
+    display:inline;
 }
 
-li.left{
-    display: inline;
-    text-decoration: underline;
-    float: left;
-}
-
-li.right{
-    display: inline;
+a.right{
+    display:inline;
     text-decoration: underline;
     float: right;
-}
+  }
 
+a.left {
+  display:inline;
+  text-decoration: underline;
+  float: left;
+}
 
 div.section1 {
     height: 10em;
@@ -66,11 +74,9 @@ button.luck {
 }
 
 footer {
-    position: absolute;
-    top:72%;
-    left:54%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-    display: block;
-    background-color:darkgrey;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+ 
 }
